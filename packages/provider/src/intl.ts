@@ -20,6 +20,7 @@ import ptBR from './locale/pt_BR';
 import ruRU from './locale/ru_RU';
 import skSK from './locale/sk_SK';
 import srRS from './locale/sr_RS';
+import srCyrl from './locale/sr-cyrl';
 import thTH from './locale/th_TH';
 import trTR from './locale/tr_TR';
 import ukUA from './locale/uk_UA';
@@ -85,6 +86,7 @@ const jaJPIntl = createIntl('ja_JP', jaJP);
 const esESIntl = createIntl('es_ES', esES);
 const caESIntl = createIntl('ca_ES', caES);
 const ruRUIntl = createIntl('ru_RU', ruRU);
+const srCyrlIntl = createIntl('sr-cyrl', srCyrl);
 const srRSIntl = createIntl('sr_RS', srRS);
 const msMYIntl = createIntl('ms_MY', msMY);
 const zhTWIntl = createIntl('zh_TW', zhTW);
@@ -132,6 +134,7 @@ const intlMap = {
   'sk-SK': skSKIntl,
   'he-IL': heILIntl,
   'uk-UA': ukUAIntl,
+  'sr-cyrl': srCyrlIntl,
 };
 
 const intlMapKeys = Object.keys(intlMap);
